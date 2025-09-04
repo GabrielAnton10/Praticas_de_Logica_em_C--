@@ -49,17 +49,33 @@ int main(){
 
     //Celsius to Farenheit
 
-    float Celsius, Farenheit;
+    /**float Celsius, Farenheit;
 
-    /**cout << "Informe a temperatura em C°:";
+    cout << "Informe a temperatura em C°:";
         cin >> Celsius;
     Farenheit = (Celsius * 1.8)+32;
-    cout << "O valor de f° é:" << Farenheit;**/
+    cout << "O valor de f° é:" << Farenheit;
 
     cout << "Informe a temperatura em F°:";
         cin >> Farenheit;
     Celsius = (Farenheit - 32)/1.8;
-    cout << "O valor de c° é:" << Celsius;
+    cout << "O valor de c° é:" << Celsius;**/
+
+    //Conversor de dolar para real
+    
+    /**float Dolar, Real;
+    
+    cout << "Digite o valor em Dolar:";
+        cin >> Dolar;
+    Real = Dolar * 5.47;
+    cout << "O valor é de:" << Real;
+
+    cout << "Digite o valor em Real:";
+     cin >> Real;
+    Dolar = Real / 5.47;
+    cout << "O valor é de:" << Dolar;**/
+    
+
 
     
     return 0;
