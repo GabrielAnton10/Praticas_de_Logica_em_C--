@@ -51,10 +51,15 @@ int main(){
 
     float Celsius, Farenheit;
 
-    cout << "Informe a temperatura em C°:";
+    /**cout << "Informe a temperatura em C°:";
         cin >> Celsius;
     Farenheit = (Celsius * 1.8)+32;
-    cout << "O valor de f° é:" << Farenheit;
+    cout << "O valor de f° é:" << Farenheit;**/
+
+    cout << "Informe a temperatura em F°:";
+        cin >> Farenheit;
+    Celsius = (Farenheit - 32)/1.8;
+    cout << "O valor de c° é:" << Celsius;
 
     
     return 0;
