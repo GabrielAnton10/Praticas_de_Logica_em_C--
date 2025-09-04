@@ -24,7 +24,7 @@ int main(){
 
     // Calculo de nota com condição 
 
-    float Nota01, Nota02, Nota03, Nota04, Nota_Final;
+    /**float Nota01, Nota02, Nota03, Nota04, Nota_Final;
     string Nome;
 
     cout << "Digite o seu Nome:";
@@ -45,8 +45,17 @@ int main(){
     }else{
         cout << "reprovado" << Nota_Final;
 
-    }
+    }**/
 
+    //Celsius to Farenheit
 
+    float Celsius, Farenheit;
+
+    cout << "Informe a temperatura em C°:";
+        cin >> Celsius;
+    Farenheit = (Celsius * 1.8)+32;
+    cout << "O valor de f° é:" << Farenheit;
+
+    
     return 0;
 }
