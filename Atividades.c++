@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int Codigo;
+    /**int Codigo;
     cout << "Digite um numero de 1 ate 15:";
         cin >> Codigo;
     switch (Codigo)
@@ -23,6 +23,12 @@ int main(){
     default:
         cout << "Codigo invalido";
         break;
-    }
+    }**/
+
+   /*Notas de alonos com o switch case */
+
+   
+
+
     return 0;
 }
