@@ -26,9 +26,5 @@ int main(){
     }**/
 
    /*Notas de alonos com o switch case */
-
-   
-
-
     return 0;
 }
